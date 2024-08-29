@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Protein - Boost Your Performance</title>
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/Logo.jpeg" alt="Power Protein Logo">
+            </a>
+            <nav class="navbar">
+                <a href="#product" class="nav-link">Product</a>
+                <a href="#benefits" class="nav-link">Benefits</a>
+                <a href="#cta" class="nav-link">Get Started</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Unlock Your Full Potential with Power Protein</h1>
+            <p>Experience the best-in-class protein supplement to fuel your muscles and enhance your performance.</p>
+            <a href="#" class="cta-button" id="buyNowBtn">Buy Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="./assets/images/HeroT.png" alt="Power Protein Product">
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section class="product-section" id="product">
+        <div class="container">
+            <h2>Why Choose Power Protein?</h2>
+            <div class="product-features">
+                <div class="feature">
+                    <img src="./assets/images/pro.jpeg" alt="Feature 1">
+                    <h4>High-Quality Ingredients</h4>
+                    <p>Only the best ingredients for optimal muscle growth.</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/images/mix.jpeg" alt="Feature 2">
+                    <h4>Great Taste</h4>
+                    <p>Delicious flavors that make your workout more enjoyable.</p>
+                </div>
+                <div class="feature">
+                    <img src="./assets/images/ben.png" alt="Feature 3">
+                    <h4>Proven Results</h4>
+                    <p>Backed by science, trusted by athletes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits">
+        <div class="container">
+            <h2>Benefits of Power Protein</h2>
+            <div class="benefit-list">
+                <div class="benefit-item">
+                    <img src="./assets/images/man.png" alt="man">
+                    <h4>Builds Muscle</h4>
+                    <p>Supports muscle recovery and growth.</p>
+                </div>
+                <div class="benefit-item">
+                    <img src="./assets/images/stamina.png" alt="stamina">
+                    <h4>Boosts Energy</h4>
+                    <p>Provides sustained energy for your workouts.</p>
+                </div>
+                <div class="benefit-item">
+                    <h4>Speeds Recovery</h4>
+                    <img src="./assets/images/shield.png" alt="shield">
+                    <p>Helps you recover faster after intense workouts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <h3>Ready to Boost Your Performance?</h3>
+            <a href="#" class="cta-button" id="getStartedBtn">Get Started Now</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>About Us</h4>
+                    <p>We are committed to providing the best protein supplements for athletes.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><img src="./assets/images/facebook.png" alt="Facebook"></a>
+                        <a href="#"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+                        <a href="#"><img src="./assets/images/instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <p>Email: info@powerprotein.com</p>
+                    <p>Phone: +123 456 7890</p>
+                </div>
+            </div>
+            <p>&copy; 2024 Power Protein. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Order Form Popup -->
+    <div class="order-popup" id="orderPopup">
+        <div class="order-popup-content">
+            <span class="close-popup" id="closePopup">&times;</span>
+            <h3>Order Power Protein</h3>
+            <form id="orderForm">
+                <label for="quantity">Number of Orders:</label>
+                <input type="number" id="quantity" name="quantity" min="1" required>
+
+                <label for="address">Delivery Address:</label>
+                <textarea id="address" name="address" required></textarea>
+
+                <label for="whatsapp">WhatsApp Number:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
