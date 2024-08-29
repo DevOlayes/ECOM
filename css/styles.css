@@ -316,6 +316,8 @@ body {
 
     .navbar.show {
         display: flex;
+        position: absolute;
+    z-index: 1000;
     }
 
     .menu-toggle {
