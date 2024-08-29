@@ -55,3 +55,11 @@ document.getElementById('orderForm').addEventListener('submit', function(event) 
     alert('Order submitted successfully!');
     orderPopup.style.display = 'none';
 });
+
+// JavaScript to toggle the menu
+const menuToggle = document.querySelector('.menu-toggle');
+const navbar = document.querySelector('.navbar');
+
+menuToggle.addEventListener('click', () => {
+    navbar.classList.toggle('show');
+});
